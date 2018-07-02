@@ -98,6 +98,7 @@ img {
     justify-content: center;
     align-items: center;
     padding: 0;
+    margin: 0 0 80px;
 
     .main_block {
       width: 94%;
@@ -286,6 +287,9 @@ img {
     width: 100%;
 
     header {
+      position: fixed;
+      top: 0;
+      background: white;
       .logo {
         margin-left: 10px;
         z-index: 1;
@@ -297,7 +301,7 @@ img {
         width: 100%;
         min-width: auto;
         position: fixed;
-        top: 80px;
+        top: 79px;
         height: auto;
         background: white;
         z-index: 0;
@@ -387,7 +391,7 @@ img {
       .main_block {
         display: block;
         flex-direction: column;
-
+        margin-top: 80px;
         .left_side {
           width: 100%;
 
@@ -431,7 +435,7 @@ img {
           }
 
           p {
-            font-size: 18px;
+            font-size: 20px;
             margin-top: 5px;
           }
         }
